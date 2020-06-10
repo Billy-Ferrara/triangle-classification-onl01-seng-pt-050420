@@ -8,7 +8,7 @@ class Triangle
     @side_3 = side_3
   end
 
-  def kind 
+  def kind
   end
 
 end
