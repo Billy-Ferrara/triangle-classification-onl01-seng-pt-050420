@@ -13,4 +13,8 @@ class Triangle
   def kind
   end
 
+  def valid_triangle
+    side_1.positive? && side_2.positive? && side_3.positive?
+  end
+
 end
